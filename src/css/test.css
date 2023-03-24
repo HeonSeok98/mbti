@@ -1,0 +1,14 @@
+
+.answer {
+    font-size: 45px;
+}
+
+li {
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+li:hover {
+    color: #321eb3;
+}
