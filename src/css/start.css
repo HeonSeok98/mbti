@@ -5,16 +5,16 @@
     align-items: center;
 }
 
-.a{
-    padding-top: 150px;
+.title{
+    padding-top: 130px;
     text-align: center;
-    height: 200px;   
+    height: 200px;
+    font-size: 50px;
 }
 
-
 .btn{
-    color: #6A5CBF;
-    background-color: #BAB2EF;
+    color: white;
+    background-color: #9388dd;
     text-decoration-line: none;
     border-radius: 50%;
     display: block;
@@ -23,5 +23,3 @@
     text-align: center;
     padding-top: 50px;
 }
-
-

@@ -3,11 +3,10 @@ import '../css/test.css';
 import '../css/golbal.css';
 
 
-
 function Test() {
 
   return (
-    <div>
+    <div className="container">
         <div>나는 인스타에 자랑질 하는 색끼덜 이해가 안된다</div>
         <ul>
           <li>매우 그렇다</li>

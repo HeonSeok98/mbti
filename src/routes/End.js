@@ -5,9 +5,8 @@ import '../css/golbal.css';
 
 function End() {
 
-
   return (
-    <div>
+    <div className="container">
         <div>대충 이미지</div>
         <div>ISFJ</div>
         <div>설명 내용</div>
