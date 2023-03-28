@@ -3,7 +3,7 @@ import '../styles/end.css';
 import '../styles/golbal.css';
 
 
-function End() {
+const End = () => {
 
   return (
     <div className="container">

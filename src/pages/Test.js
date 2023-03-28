@@ -5,17 +5,17 @@ import '../styles/golbal.css';
 
 
 
-function Test() {
+const Test = () => {
 
   const [count, setCount] = useState(0);
 
-  function next() {
+  const next = () => {
     setCount(count+1)
   }
 
   return (
     <div className="container">
-        <div className="question">{questionList[count].name}</div>
+        <div className="question"></div>
         <ol>
           <li onClick={next}>매우 그렇다</li>
           <li onClick={next}>그렇다</li>

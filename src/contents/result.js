@@ -1,82 +1,82 @@
 
 const result = [
     {
-        image: '',
+        image: 'isfj.png',
         name: 'ISFJ',
         message: ''
     },
     {
-        image: '',
+        image: 'isfp.png',
         name: 'ISFP',
         message: ''
     },
     {
-        image: '',
+        image: 'istj.png',
         name: 'ISTJ',
         message: ''
     },
     {
-        image: '',
+        image: 'istp.png',
         name: 'ISTP',
         message: ''
     },
     {
-        image: '',
+        image: 'infj.png',
         name: 'INFJ',
         message: ''
     },
     {
-        image: '',
+        image: 'infp.png',
         name: 'INFP',
         message: ''
     },
     {
-        image: '',
+        image: 'intj.png',
         name: 'INTJ',
         message: ''
     },
     {
-        image: '',
+        image: 'intp.png',
         name: 'INTP',
         message: ''
     },
     {
-        image: '',
+        image: 'esfj.png',
         name: 'ESFJ',
         message: ''
     },
     {
-        image: '',
+        image: 'esfp.png',
         name: 'ESFP',
         message: ''
     },
     {
-        image: '',
+        image: 'estj.png',
         name: 'ESTJ',
         message: ''
     },
     {
-        image: '',
+        image: 'estp.png',
         name: 'ESTP',
         message: ''
     },
     {
-        image: '',
+        image: 'enfj.png',
         name: 'ENFJ',
         message: ''
     },
     {
-        image: '',
+        image: 'enfp.png',
         name: 'ENFP',
         message: ''
     },
     {
-        image: '',
+        image: 'entj.png',
         name: 'ENTJ',
         message: ''
     },
     {
-        image: '',
+        image: 'entp.png',
         name: 'ENTP',
         message: ''
     }
