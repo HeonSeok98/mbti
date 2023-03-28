@@ -1,7 +1,5 @@
 import { useState } from "react";
-import '../styles/test.css';
-import '../styles/golbal.css';
-
+import TestCard from '../components/TestCard';
 
 
 
@@ -14,8 +12,8 @@ const Test = () => {
   }
 
   return (
-    <div className="container">
-        <div className="question"></div>
+    <div>
+        <TestCard></TestCard>
         <ol>
           <li onClick={next}>매우 그렇다</li>
           <li onClick={next}>그렇다</li>
