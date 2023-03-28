@@ -1,5 +1,5 @@
-import '../css/start.css';
-import '../css/golbal.css';
+import '../styles/start.css';
+import '../styles/golbal.css';
 import { Link } from "react-router-dom";
 
 

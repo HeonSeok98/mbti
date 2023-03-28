@@ -1,6 +1,6 @@
 import { useState } from "react";
-import '../css/end.css';
-import '../css/golbal.css';
+import '../styles/end.css';
+import '../styles/golbal.css';
 
 
 function End() {

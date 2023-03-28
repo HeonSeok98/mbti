@@ -1,7 +1,7 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Start from "./routes/Start";
-import Test from "./routes/Test";
-import End from "./routes/End";
+import Start from "./pages/Start";
+import Test from "./pages/Test";
+import End from "./pages/End";
 
 
 function App() {
