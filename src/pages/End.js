@@ -1,5 +1,5 @@
-import { useState } from "react";
 import ResultCard from '../components/ResultCard';
+
 
 const End = () => {
 
