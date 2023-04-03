@@ -1,5 +1,4 @@
 import ResultCard from '../components/ResultCard';
-import '../styles/golbal.css';
 
 
 const End = () => {

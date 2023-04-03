@@ -237,7 +237,7 @@ const ResultCard = () => {
       <img src = {you.image} alt="" className='image'/>
       <div className='explain'>
         <div>결과: {you.name}</div>
-        <div>{you.message}</div>
+        <div className='detail'>{you.message}</div>
       </div>
     </div>
   );
