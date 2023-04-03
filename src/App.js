@@ -3,7 +3,6 @@ import Start from "./pages/Start";
 import Test from "./pages/Test";
 import End from "./pages/End";
 
-
 function App() {
   
   return (
