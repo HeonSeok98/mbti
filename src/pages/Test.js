@@ -1,14 +1,13 @@
-import { useState, useEffect } from "react";
 import TestCard from '../components/TestCard';
-
+import '../styles/golbal.css';
 
 
 const Test = ({ match }) => {
 
 
   return (
-    <div>
-        <TestCard match={match}></TestCard>
+    <div className='container'>
+      <TestCard match={match}></TestCard>
     </div>
   );
 }

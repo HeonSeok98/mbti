@@ -1,0 +1,18 @@
+
+.question {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.link {
+    text-decoration-line: none;
+}
+
+li {
+    margin: 5px;
+    font-size: 35px;
+}
+
+li:hover {
+    color: #321eb3;
+}

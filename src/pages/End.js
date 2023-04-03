@@ -1,10 +1,13 @@
 import ResultCard from '../components/ResultCard';
+import '../styles/golbal.css';
 
 
 const End = () => {
 
   return (
-    <ResultCard></ResultCard>
+    <div className='container'>
+      <ResultCard></ResultCard>
+    </div>
   );
 }
 

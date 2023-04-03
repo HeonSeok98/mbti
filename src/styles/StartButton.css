@@ -1,21 +1,16 @@
 
-.title{
-    padding-top: 130px;
-    text-align: center;
-    height: 200px;
-    font-size: 50px;
-}
-
 .btn{
     color: white;
     background-color: #9388dd;
     text-decoration-line: none;
     border-radius: 50%;
     display: block;
-    width: 500px;
+    width: 450px;
     height: 100px;
     text-align: center;
     padding-top: 40px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .btn:hover{
