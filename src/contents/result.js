@@ -1,84 +1,102 @@
+import isfjImage from '../images/isfj.png';
+import isfpImage from '../images/isfp.png';
+import istjImage from '../images/istj.png';
+import istpImage from '../images/istp.png';
+import infjImage from '../images/infj.png';
+import infpImage from '../images/infp.png';
+import intjImage from '../images/intj.png';
+import intpImage from '../images/intp.png';
+import esfjImage from '../images/esfj.png';
+import esfpImage from '../images/esfp.png';
+import estjImage from '../images/estj.png';
+import estpImage from '../images/estp.png';
+import enfjImage from '../images/enfj.png';
+import enfpImage from '../images/enfp.png';
+import entjImage from '../images/entj.png';
+import entpImage from '../images/entp.png';
+
+
 
 const result = [
   {
-    image: 'isfj.png',
+    image: isfjImage,
     name: 'ISFJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'isfp.png',
+    image: isfpImage,
     name: 'ISFP',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'istj.png',
+    image: istjImage,
     name: 'ISTJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'istp.png',
+    image: istpImage,
     name: 'ISTP',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'infj.png',
+    image: infjImage,
     name: 'INFJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'infp.png',
+    image: infpImage,
     name: 'INFP',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'intj.png',
+    image: intjImage,
     name: 'INTJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'intp.png',
+    image: intpImage,
     name: 'INTP',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'esfj.png',
+    image: esfjImage,
     name: 'ESFJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'esfp.png',
+    image: esfpImage,
     name: 'ESFP',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'estj.png',
+    image: estjImage,
     name: 'ESTJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'estp.png',
+    image: estpImage,
     name: 'ESTP',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'enfj.png',
+    image: enfjImage,
     name: 'ENFJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'enfp.png',
+    image: enfpImage,
     name: 'ENFP',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'entj.png',
+    image: entjImage,
     name: 'ENTJ',
-    message: ''
+    message: '응애'
   },
   {
-    image: 'entp.png',
+    image: entpImage,
     name: 'ENTP',
-    message: ''
+    message: '응애'
   }
 ];
 
