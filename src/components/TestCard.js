@@ -48,23 +48,19 @@ const TestCard = ({ match }) => {
       </div>
       {curTest.id < 16 ? (
         <Link to={`/test/${curTest.id+1}`} className='link'>
-          <ol>
-            <li onClick={() => answer1()}>매우 그렇다</li>
-            <li onClick={() => answer2()}>그렇다</li>
-            <li onClick={() => answer3()}>별 생각없다</li>
-            <li onClick={() => answer4()}>아니다</li>
-            <li onClick={() => answer5()}>전혀 아니다</li>
-          </ol>
+          <button onClick={() => answer1()} className='answer'>매우 그렇다</button>
+          <button onClick={() => answer2()} className='answer'>그렇다</button>
+          <button onClick={() => answer3()} className='answer'>별 생각없다</button>
+          <button onClick={() => answer4()} className='answer'>아니다</button>
+          <button onClick={() => answer5()} className='answer'>전혀 아니다</button>
         </Link>
       ) : (
         <Link to={`/end`} className='link'>
-          <ol>
-            <li onClick={() => answer1()}>매우 그렇다</li>
-            <li onClick={() => answer2()}>그렇다</li>
-            <li onClick={() => answer3()}>별 생각없다</li>
-            <li onClick={() => answer4()}>아니다</li>
-            <li onClick={() => answer5()}>전혀 아니다</li>
-          </ol>
+            <button onClick={() => answer1()} className='answer'>매우 그렇다</button>
+            <button onClick={() => answer2()} className='answer'>그렇다</button>
+            <button onClick={() => answer3()} className='answer'>별 생각없다</button>
+            <button onClick={() => answer4()} className='answer'>아니다</button>
+            <button onClick={() => answer5()} className='answer'>전혀 아니다</button>
         </Link>
       )}
     </div>

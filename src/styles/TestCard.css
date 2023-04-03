@@ -5,14 +5,22 @@
 }
 
 .link {
+    display: flex;
+    flex-direction: column;
     text-decoration-line: none;
+    align-items: center;
 }
 
-li {
+.answer {
+    background-color: #7164C1;
+    color: white;
     margin: 5px;
     font-size: 35px;
+    border: 0px;
+    border-radius: 20px;
+    width: 350px;
 }
 
-li:hover {
-    color: #321eb3;
+.answer:hover {
+    background-color: #533fd4;
 }

@@ -3,16 +3,16 @@
     color: white;
     background-color: #9388dd;
     text-decoration-line: none;
-    border-radius: 50%;
+    border-radius: 50px;
     display: block;
-    width: 450px;
-    height: 100px;
+    width: 400px;
+    height: 80px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 25px;
     font-size: 40px;
     font-weight: 900;
 }
 
 .btn:hover{
-    background-color: #6858d6;
+    background-color: #533fd4;
 }
