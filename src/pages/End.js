@@ -5,7 +5,7 @@ import '../styles/golbal.css';
 const End = () => {
 
   return (
-    <div className='container'>
+    <div>
       <ResultCard></ResultCard>
     </div>
   );

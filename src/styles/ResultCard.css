@@ -1,0 +1,23 @@
+
+.image {
+  height: 300px;
+  width: 300px;
+}
+
+.endPage{
+  border: 30px solid white;
+  border-radius: 40px;
+  height: 449px;
+  background-color: white;
+  box-shadow: 0px 0px 0px 20px #9388dd;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.explain {
+  padding-left: 30px;
+}
+
+

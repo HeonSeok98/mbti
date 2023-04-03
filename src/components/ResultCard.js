@@ -1,5 +1,7 @@
 import questions from '../contents/question';
 import score from '../contents/score';
+import result from '../contents/result';
+import '../styles/ResultCard.css';
 
 
 const ResultCard = () => {
@@ -207,31 +209,36 @@ const ResultCard = () => {
   let mbti='';
 
   if (score.i>=score.e) {
-    mbti +='i';
+    mbti +='I';
   } else {
-    mbti +='e';
+    mbti +='E';
   }
   if (score.s>=score.n) {
-    mbti +='s';
+    mbti +='S';
   } else {
-    mbti +='n';
+    mbti +='N';
   }
   if (score.f>=score.t) {
-    mbti +='f';
+    mbti +='F';
   } else {
-    mbti +='t';
+    mbti +='T';
   }
   if (score.j>=score.p) {
-    mbti +='j';
+    mbti +='J';
   } else {
-    mbti +='p';
+    mbti +='P';
   }
 
-
+  const you = result.find(item => item.name === mbti);
+  console.log(you);
 
   return (
-    <div>
-      결과: {mbti}
+    <div className='endPage'>
+      <img src = {you.image} alt="" className='image'/>
+      <div className='explain'>
+        <div>결과: {you.name}</div>
+        <div>{you.message}</div>
+      </div>
     </div>
   );
 }
